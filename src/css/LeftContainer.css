@@ -1,0 +1,122 @@
+.left-container {
+    height: 100dvh;
+    background: #161616;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new-chat {
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    gap: 10px;
+    border-radius: 7px;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+
+    &:hover {
+        background: #222;
+    }
+}
+
+.new-chat b{
+    font-weight: 600;
+    font-size: 0.85em;
+}
+
+#gpt-logo {
+    width: 26px;
+    padding: 4px;
+    border: 1px solid #aaaaaa87;
+    border-radius: 50%
+}
+
+#new-chat-icon {
+    width: 13px;
+    margin-left: auto;
+}
+
+
+.bottom-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px;
+}
+
+.instruction b{
+    font-weight: 600;
+    font-size: 0.85em;
+}
+.instruction p{
+    font-weight: 200;
+    font-size: 0.85em;
+}
+
+.bottom-left-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottom-left-buttons button{
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+.signup{
+    background-color: #10a37f;
+    border: 0;
+
+    &:hover{
+        background: #0e8769;
+    }
+}
+.login{
+    border: 1px solid #aaaaaa4d;
+    background: #222;
+
+    &:hover{
+        background: #333;
+    }
+}
+
+.close-leftcontainer-line{
+    position: fixed;
+    top: 50%;
+    left: 265px;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.close-leftcontainer-line:hover .line:first-child{
+    transform: rotate(15deg) translateX(2px);
+    background: white;
+}
+.close-leftcontainer-line:hover .line:last-child{
+    transform: rotate(-15deg) translateX(2px);
+    background: white;
+}
+
+.line{
+    width: 4px;
+    height: 10px;
+    background: #999;
+    transition: all 0.2s ease;
+}
+.line:first-child{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-top: 3px;
+}
+.line:last-child{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top: -1px;
+}

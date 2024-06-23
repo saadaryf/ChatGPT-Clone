@@ -1,0 +1,13 @@
+
+
+.chat-box{
+    position: relative;
+    background:  springgreen;
+    width: 60%;
+    height: auto;
+    min-height: 100vh;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-y: a;
+    padding: 100px 30px;
+}

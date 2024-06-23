@@ -1,0 +1,57 @@
+
+
+.suggestions{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 10px;
+}
+.centered-logo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 55vw;
+}
+.centered-logo img{
+    width: 46px;
+    border: 1px solid #aaaaaa4d;
+    padding: 6px;
+    border-radius: 50%;
+}
+.centered-logo h2{
+    font-weight: 400;
+}
+
+
+.bottom-suggestions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0  10px;
+}
+
+.sugg b{
+    font-weight: 500;
+}
+
+.sugg p{
+    font-weight: 200;
+}
+
+.sugg{
+    font-size: 0.8em;
+    border: 1px solid #aaaaaa4d;
+    padding: 10px 15px;
+    border-radius: 10px;
+    min-width: none;
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+        background: #aaaaaa28;
+    }
+}

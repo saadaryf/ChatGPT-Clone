@@ -1,0 +1,31 @@
+.header {
+    position: fixed;
+    width: calc(100dvw - 260px);
+    max-width: calc(100dvw - 260px);
+    right: 0;
+    top: 0;
+    padding: 15px;
+    background: #222;
+    z-index: 5;
+}
+
+.top-left-btn button {
+    background: transparent;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 1.1em;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 13px;
+
+    &:hover{
+        background: #313131;
+    }
+}
+
+.arrow {
+    display: inline-block;
+    transform: rotate(90deg);
+    color: #aaa;
+}

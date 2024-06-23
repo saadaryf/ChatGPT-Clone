@@ -1,0 +1,19 @@
+
+
+.main-container {
+    background: #222;
+    overflow-y: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-container::-webkit-scrollbar {
+    display: none;
+}
+
